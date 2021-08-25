@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="RENTAL">
+  <grid id="27dc6" binding="Panel_Root" layout-manager="GridLayoutManager" row-count="15" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="510"/>
+    </constraints>
+    <properties>
+      <background color="-15853503"/>
+      <foreground color="-1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="fcbc0" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <text value="RENTAL FORM"/>
+        </properties>
+      </component>
+      <component id="7d432" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <text value="*Name"/>
+        </properties>
+      </component>
+      <component id="7db22" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15853503"/>
+          <foreground color="-1"/>
+        </properties>
+      </component>
+      <component id="55ed4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <text value="RENTER:"/>
+        </properties>
+      </component>
+      <component id="3c58b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <text value="*Phone:"/>
+        </properties>
+      </component>
+      <component id="1872d" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15853503"/>
+          <foreground color="-1"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="66e0b" class="javax.swing.JTextField" binding="textField3" default-binding="true">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15853503"/>
+          <foreground color="-1"/>
+        </properties>
+      </component>
+      <component id="c396a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <text value="*Address"/>
+        </properties>
+      </component>
+      <component id="4016" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <text value="*Body Type:"/>
+        </properties>
+      </component>
+      <component id="f4e93" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <text value="*Year:"/>
+        </properties>
+      </component>
+      <component id="65c4f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <text value="*Ownership:"/>
+        </properties>
+      </component>
+      <component id="6e363" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <text value="*Manufacturer:"/>
+        </properties>
+      </component>
+      <component id="1b3b0" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15853503"/>
+          <foreground color="-1"/>
+          <model>
+            <item value="Choose Build"/>
+            <item value="Coupe"/>
+            <item value="Sedan"/>
+            <item value="SUV"/>
+            <item value="Hatchback"/>
+          </model>
+        </properties>
+      </component>
+      <component id="6e0e6" class="javax.swing.JComboBox" binding="comboBox2" default-binding="true">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15853503"/>
+          <foreground color="-1"/>
+          <model>
+            <item value="Choose Year"/>
+            <item value="2021"/>
+            <item value="2020"/>
+            <item value="2019"/>
+            <item value="2018"/>
+            <item value="2017"/>
+            <item value="2016"/>
+            <item value="2015"/>
+            <item value="2014"/>
+            <item value="2013"/>
+            <item value="2012"/>
+            <item value="2011"/>
+          </model>
+        </properties>
+      </component>
+      <component id="2ae4b" class="javax.swing.JComboBox" binding="comboBox3" default-binding="true">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15853503"/>
+          <foreground color="-1"/>
+          <model>
+            <item value="Select Ownership"/>
+            <item value="First Owner"/>
+            <item value="Second Owner"/>
+            <item value="Third Owner"/>
+          </model>
+        </properties>
+      </component>
+      <component id="27f8f" class="javax.swing.JComboBox" binding="comboBox4" default-binding="true">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15853503"/>
+          <foreground color="-1"/>
+          <model>
+            <item value="Choose Manufacturer"/>
+            <item value="Honda"/>
+            <item value="Maruti Suzuki"/>
+            <item value="Ford"/>
+            <item value="Volkswagen"/>
+            <item value="Chevrolet"/>
+            <item value="BMW"/>
+            <item value="Mercedes"/>
+            <item value="Audi"/>
+            <item value="TATA"/>
+            <item value="Toyota"/>
+            <item value="Renault"/>
+            <item value="Mahindra"/>
+            <item value="Tesla"/>
+          </model>
+        </properties>
+      </component>
+      <component id="c136b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <text value="Colour:"/>
+        </properties>
+      </component>
+      <component id="a9a3c" class="javax.swing.JTextField" binding="textField4" default-binding="true">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15853503"/>
+          <foreground color="-1"/>
+        </properties>
+      </component>
+      <component id="90688" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <text value="Fastag:"/>
+        </properties>
+      </component>
+      <component id="46841" class="javax.swing.JCheckBox" binding="requiredCheckBox" default-binding="true">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15853503"/>
+          <foreground color="-1"/>
+          <text value="Required"/>
+        </properties>
+      </component>
+      <component id="40083" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <text value="*Fuel Type:"/>
+        </properties>
+      </component>
+      <component id="f650d" class="javax.swing.JComboBox" binding="comboBox6" default-binding="true">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15853503"/>
+          <foreground color="-1"/>
+          <model>
+            <item value="Choose Fuel Type"/>
+            <item value="Petrol"/>
+            <item value="Diesel"/>
+            <item value="CNG"/>
+            <item value="Electric"/>
+          </model>
+        </properties>
+      </component>
+      <component id="83f66" class="javax.swing.JButton" binding="submitButton" default-binding="true">
+        <constraints>
+          <grid row="14" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Submit"/>
+        </properties>
+      </component>
+      <component id="aeab9" class="javax.swing.JCheckBox" binding="notRequiredCheckBox" default-binding="true">
+        <constraints>
+          <grid row="12" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15853503"/>
+          <foreground color="-1"/>
+          <text value="Not Required"/>
+        </properties>
+      </component>
+      <component id="a9def" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <text value="Requested Vehicle Details"/>
+        </properties>
+      </component>
+      <component id="1d89d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <text value="Fields with * are mandatory."/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
